@@ -39,13 +39,13 @@
       <header id="header" class="fixed-top d-flex align-items-center">
         <div class="container d-flex align-items-center">
 
-          <a href="../../views/index.jsp" class="logo me-auto"><img src="../img/zyro-image-50.png" alt=""
+          <a href="../../views/home.jsp" class="logo me-auto"><img src="../img/zyro-image-50.png" alt=""
               class="img-fluid"></a>
-          <h1 class="logo me-auto"><a href="../../views/index.jsp">Nature</a></h1>
+          <h1 class="logo me-auto"><a href="../../views/home.jsp">Nature</a></h1>
 
           <nav id="navbar" class="navbar">
             <ul>
-              <li><a href="../../views/index.jsp">Home</a></li>
+              <li><a href="../../views/home.jsp">Home</a></li>
 
               <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
@@ -68,7 +68,8 @@
               <li><a href="../../views/blog.jsp" class="active">Blog</a></li>
 
               <li><a href="../../views/contact.jsp">Contact</a></li>
-              <li><a href="../../views/index.jsp" class="getstarted">Get Started</a></li>
+              <li><a href="../../views/login.jsp">Login</a></li>
+              <li><a href="../../views/login.jsp"><span th:text="${userLogin}"></span></a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
           </nav><!-- .navbar -->

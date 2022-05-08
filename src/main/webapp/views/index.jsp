@@ -105,7 +105,9 @@
               <li><a href="../../views/blog.jsp">Blog</a></li>
 
               <li><a href="../../views/contact.jsp">Contact</a></li>
-              <li><a href="../../views/index.jsp" class="getstarted">Get Started</a></li>
+              <li><a href="../../views/login.jsp">Login</a></li>
+              <li><a href="../../views/contact.jsp"><span th:text="${userLogin}"></span></a></li>
+
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
           </nav><!-- .navbar -->
@@ -118,7 +120,7 @@
       <!--Add image-->
       <!--title-->
       <article class="all-browsers" style="text-align: center;padding: 26px;">
-        <h1 style="color: aqua;">Nature app is Website talk about nature</h1>
+        <h1 style="color: rgb(0, 0, 0);">Nature app is Website talk about nature</h1>
         <h5>Let’s explore, relax, and play.</h5>
         <h5>Choose from 5 beach holiday destinations in Vietnam: Phu Quoc, Danang, Quang Nam, Khanh Hoa, and Quang
           Ninh.</h5>
