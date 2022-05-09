@@ -104,7 +104,7 @@
                             </li>
                             <li><a href="../../views/services.jsp">Services</a></li>
                             <li><a href="../../views/blog.jsp">Blog</a></li>
-
+                            <li><a href="../../views/cart.jsp">Cart</a></li>
                             <li><a href="../../views/contact.jsp">Contact</a></li>
                             <li><a href="../../views/index.jsp">Logout</a></li>
 
@@ -132,7 +132,19 @@
                 <br>
                 <h5>Take in new sites, sounds, and flavors. Experiences that are truly memorable.</h5>
                 <h5>Live fully in Vietnam</h5>
+
+                <div class="col-xl-12">
+                    <div class="wrap-title">
+                        ::before
+                        <h5 class="small-section-title">Nature</h5>
+                        ::after
+                    </div>
+                </div>
             </article>
+
+
+
+
             <!--title-->
 
             <!-- ======= Hero Section ======= -->

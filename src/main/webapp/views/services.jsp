@@ -71,6 +71,7 @@
               <li><a href="../../views/blog.jsp">Blog</a></li>
 
               <li><a href="../../views/contact.jsp">Contact</a></li>
+              <li><a href="../../views/cart.jsp">Cart</a></li>
               <li><a href="../../views/login.jsp">Login</a></li>
               <li><a href="../../views/login.jsp"><span th:text="${userLogin}"></span></a></li>
             </ul>
